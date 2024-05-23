@@ -1,0 +1,81 @@
+<div class="button">
+    <a href="reportes" class="btn btn-success">Reportes <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+<div>
+@for (item of reservas; track item) {
+    <div class="total">
+    <div class="ticket">
+        <h1>Ticket de compra</h1>
+        <div class="primera">
+            <img src={{item.casa.imagen1}} alt="">
+            <div class="data">
+                <p class="titulodata">{{item.casa.direccion}}</p>
+                <p>Anfitrion: {{item.casa.anfitrion}}</p>
+                <p><i class="fa-solid fa-star"></i> {{item.casa.calificacion}} - <small>SuperAnfitrión</small></p>
+            </div>  
+        </div>
+        <hr>
+        <div class="segunda">
+            <h2>Detalles del precio</h2>
+            <div class="precionoche">
+                <p>${{item.casa.precio}} MXN x {{item.dias}} noches</p>
+                <p>${{item.totalxnoche}} MXN</p>
+            </div>
+            <div class="tarifa">
+                <p>Tarifa de limpieza</p>
+                <p>${{item.tarifa}} MXN</p>
+            </div>
+            <div class="tarifa2">
+                <p>Tarifa por servicio de Airbnb</p>
+                <p>${{item.tarifa2}} MXN</p>
+            </div>
+            <div class="impuestos">
+                <p>Impuestos</p>
+                <p>${{item.impuestos}} MXN</p>
+            </div>
+        </div>
+        <hr>
+        <div class="tercera">
+            <h3>Total (MXN)</h3>
+            <p>${{item.sumatotal}} MXN</p>
+        </div>
+    </div>
+    <div class="mitad">
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <div class="datosreserva">
+        <h1>Datos de quien lo reservo</h1>
+        <div class="input-container">
+            <i class="fas fa-calendar"></i>
+            <p>{{item.dia1}}/{{item.mes1 + 1}}/{{item.year1}} - {{item.dia2}}/{{item.mes2 + 1}}/{{item.year2}}</p>
+        </div>
+        <hr>
+        <div class="input-container">
+            <i class="fas fa-clock"></i> <!-- Cambia el ícono -->
+            <p>{{item.hora}}</p>
+        </div>
+        <hr>
+        <div class="input-container">
+            <i class="fas fa-user"></i>
+            <p>{{item.nombre}}</p>
+        </div>
+        <hr>
+        <div class="input-container">
+            <i class="fas fa-envelope"></i>
+            <p>{{item.correo}}</p>
+        </div>
+        <hr>
+        <div class="input-container">
+            <i class="fas fa-phone"></i>
+            <p>{{item.telefono}}</p>
+        </div>
+        <hr>
+        <div class="input-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>{{item.direccionuser}}</p>
+        </div>
+    </div>
+    </div>
+}
+</div>

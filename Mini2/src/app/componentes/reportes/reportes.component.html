@@ -1,0 +1,57 @@
+<div class="button">
+    <a href="registros" class="btn btn-success"><i class="fa-solid fa-arrow-left"></i> Reservas</a>
+</div>
+
+<div class="table-responsive">
+    <div class="table-container">
+        <h2>REPORTES ANTERIORES</h2>
+        <table class="table table-borderless">
+            <thead class="table-light">
+                <tr class="table-light">
+                    <th>NOMBRE</th>
+                    <th>FECHA</th>
+                    <th>CORREO</th>
+                    <th>TELEFONO</th>
+                    <th>DIRECCIÓN</th>
+                </tr>
+            </thead>
+            @for (item of reservasAnteriores; track item) {
+                <tr class=" table-light">
+                    <td class="">{{item.nombre}}</td>
+                    <td>{{item.dia1}}/{{item.mes1 + 1}}/{{item.year1}} - {{item.dia2}}/{{item.mes2 + 1}}/{{item.year2}}</td>
+                    <td>{{item.correo}}</td>
+                    <td>{{item.telefono}}</td>
+                    <td>{{item.direccionuser}}</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <br><br>
+
+    <div class="table-container">
+        <h2>REPORTES ACTUALES</h2>
+        <table class="table table-borderless">
+            <thead class="table-light">
+                <tr class="table-ligth">
+                    <th>NOMBRE</th>
+                    <th>FECHA</th>
+                    <th>CORREO</th>
+                    <th>TELEFONO</th>
+                    <th>DIRECCIÓN</th>
+                </tr>
+            </thead>
+            @for (item of reservasPosteriores; track item) {
+                <tr class="table-ligth">
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.dia1}}/{{item.mes1 + 1}}/{{item.year1}} - {{item.dia2}}/{{item.mes2 + 1}}/{{item.year2}}</td>
+                    <td>{{item.correo}}</td>
+                    <td>{{item.telefono}}</td>
+                    <td>{{item.direccionuser}}</td>
+                </tr>
+            }
+        </table>
+    
+    </div>
+        
+</div>

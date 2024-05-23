@@ -1,0 +1,93 @@
+<div class="reserva">
+    <div class="formulario">
+        
+         <div class="button" style="padding: 10px;"> 
+            <h1><a [routerLink]="['/casaunica',id]" mat-fab color="success" aria-label="Example icon button with a delete icon">
+            
+              <mat-icon>keyboard_arrow_left</mat-icon>
+            </a> Hacer reservación</h1>
+          </div>
+        <hr>
+        <div class="datos2">
+            <div class="datos">
+                <h3>-Tu viaje-</h3>
+                <p>Fechas</p>
+
+                <app-calendario (diasCalculados)="calculardias($event)" (endcalc)="calcularend($event)" (startcalc)="calcularstart($event)"></app-calendario>
+                <label for="hora">
+                    <input class="hora" type="time" name="hora" [(ngModel)]="hora" id="hora">
+                </label>                  
+            </div>
+        </div>
+        <hr>
+        <div class="datos">
+            <h3>-Completa la información-</h3>
+            <form #form="ngForm" (ngSubmit)="guardarReserva()" novalidate>
+                <div class="input-container">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Nombre" name="nombre" [(ngModel)]="nombre" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Correo electrónico" name="correo" [(ngModel)]="correo" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Teléfono" name="telefono" [(ngModel)]="telefono" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Dirección" name="direccionuser" [(ngModel)]="direccionuser" required>
+                </div>
+                <div class="input-container">
+                    <app-slide></app-slide>
+                </div>
+                <button type="submit" [disabled]="!form.valid || dias <= 0">Reservar</button>
+            </form>
+            
+        </div>
+    </div>
+    <!-- div de la derecha ticket impreso -->
+    @if (dias > 0) {
+    <div class="ticket">
+        <div class="primera">
+            <img src={{casa.imagen1}} alt="">
+            <div class="data">
+                <p class="titulodata">{{casa.direccion}}</p>
+                <p>Anfitrion: {{casa.anfitrion}}</p>
+                <p><i class="fa-solid fa-star"></i> {{casa.calificacion}} - <small>SuperAnfitrión</small></p>
+            </div>  
+        </div>
+        <hr>
+        <div class="segunda">
+            <h2>Detalles del precio</h2>
+            <div class="precionoche">
+                <p>${{casa.precio}} MXN x {{dias}} noches</p>
+                <p>${{totalxnoche}} MXN</p>
+            </div>
+            <div class="tarifa">
+                <p>Tarifa de limpieza</p>
+                <p>${{tarifa}} MXN</p>
+            </div>
+            <div class="tarifa2">
+                <p>Tarifa por servicio de Airbnb</p>
+                <p>${{tarifa2}} MXN</p>
+            </div>
+            <div class="impuestos">
+                <p>Impuestos</p>
+                <p>${{impuestos}} MXN</p>
+            </div>
+        </div>
+        <hr>
+        <div class="tercera">
+            <h3>Total (MXN)</h3>
+            <p>${{sumatotal}} MXN</p>
+        </div>
+    </div>
+    }@else {
+        <div class="sinprecio">
+            <img src="../../../assets/images/ticket.jpg" alt="">
+        </div>
+    }
+
+</div>

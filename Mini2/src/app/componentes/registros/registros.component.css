@@ -1,0 +1,102 @@
+.total{
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transform: translateX(20%);
+}
+
+.mitad{
+    width: 10%;
+    align-items: center ;
+}
+
+.mitad i{
+    font-size: 50px;
+}
+
+.ticket{
+    width: 34%; 
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.primera{
+    display: flex;
+    align-items: center;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 0px 20px 1px 0px;
+}
+
+.data{
+    margin-top: 5px;
+    line-height: 0.5;
+}
+
+
+.titulodata{
+    font-weight: bold;
+    line-height: 1;
+}
+
+hr{
+    color: rgb(139, 139, 139);
+}
+
+.precionoche, 
+.tarifa,
+.tarifa2,
+.impuestos,
+.tercera{
+    display: flex   ;
+    justify-content: space-between;
+}
+
+.input-container i {
+    transform: translateY(-20%);
+    font-size: 30px;
+    color: #888;
+    margin-right: 30px;
+}
+
+.input-container{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.datosreserva{
+    max-width: 30%;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h1{
+    font-style: italic;
+    font-size: 17px;
+    color: #888;
+    background-color: aliceblue;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+    margin: 30px 30px 0px 0px;
+    padding: 10px;
+}
+
