@@ -12,7 +12,23 @@
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"
-        ]
+        ],
+        "urls": [
+          "https://kit.fontawesome.com/673553f744.js",
+          "https://googleads.g.doubleclick.net/pagead/id",
+          "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+          "https://www.youtube.com/s/player/bc657243/www-player.css",
+          "https://www.youtube.com/s/player/bc657243/player_ias.vflset/es_MX/embed.js",
+          "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+          "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+          "https://www.youtube.com/watch?v=xTj1kJgYuHU&t=1s"
+        ],
+        "cacheConfig":{
+          "stategy": "freshness",
+          "maxSize": 5,
+          "maxAge": "50m",
+          "timeout": "5s"
+        }
       }
     },
     {
