@@ -68,8 +68,27 @@ span{
 
 #equipo{
     width: 90%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
 }
 
+@media (max-width: 900px) {
+    #equipo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #equipo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    #equipo {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
 
 #equipo .card {
     height: 600px; 
@@ -108,7 +127,7 @@ span{
 }
 
 
-.alan-card, .luis-card, .omar-card, .johan-card {
+.alan-card, .luis-card, .omar-card, .xitlali-card, .dany-card, .balandran-card, .gaby-card {
     border-radius: 5px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

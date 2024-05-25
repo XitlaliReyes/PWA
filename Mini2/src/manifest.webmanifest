@@ -2,7 +2,7 @@
   "name": "Home-Lock",
   "short_name": "Home-Lock",
   "theme_color": "#a3bdc7", 
-  "background_color": "#000080",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
