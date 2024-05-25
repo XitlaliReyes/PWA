@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716503199379,
+  "timestamp": 1716623735838,
   "index": "https://XitlaliReyes.github.io/PWA/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "https://XitlaliReyes.github.io/PWA/chunk-SDGOTNAG.js",
         "https://XitlaliReyes.github.io/PWA/favicon.ico",
         "https://XitlaliReyes.github.io/PWA/index.html",
-        "https://XitlaliReyes.github.io/PWA/main-DXODQGUH.js",
+        "https://XitlaliReyes.github.io/PWA/main-CP2D2R24.js",
         "https://XitlaliReyes.github.io/PWA/manifest.webmanifest",
         "https://XitlaliReyes.github.io/PWA/polyfills-A7MJM4D4.js",
         "https://XitlaliReyes.github.io/PWA/scripts-QYHR5MO2.js",
@@ -152,6 +152,8 @@
         "https://XitlaliReyes.github.io/PWA/assets/icons/icon-512x512.png",
         "https://XitlaliReyes.github.io/PWA/assets/icons/icon-72x72.png",
         "https://XitlaliReyes.github.io/PWA/assets/icons/icon-96x96.png",
+        "https://XitlaliReyes.github.io/PWA/assets/images/Adrian.jpg",
+        "https://XitlaliReyes.github.io/PWA/assets/images/Dany.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/aaron.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/aboutus.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/alan.jpg",
@@ -159,6 +161,7 @@
         "https://XitlaliReyes.github.io/PWA/assets/images/cuidad.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/experciancia.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/familia.jpg",
+        "https://XitlaliReyes.github.io/PWA/assets/images/gaby.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/home_lock.png",
         "https://XitlaliReyes.github.io/PWA/assets/images/johan.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/logo.png",
@@ -173,7 +176,8 @@
         "https://XitlaliReyes.github.io/PWA/assets/images/spa.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/ticket.jpg",
         "https://XitlaliReyes.github.io/PWA/assets/images/todoincluido.jpeg",
-        "https://XitlaliReyes.github.io/PWA/assets/images/xcaret.jpg"
+        "https://XitlaliReyes.github.io/PWA/assets/images/xcaret.jpg",
+        "https://XitlaliReyes.github.io/PWA/assets/images/xitlali.jpeg"
       ],
       "patterns": []
     }
@@ -301,6 +305,8 @@
     "https://XitlaliReyes.github.io/PWA/assets/icons/icon-512x512.png": "ad791cb878345aba049db3dbfd340558fec11e20",
     "https://XitlaliReyes.github.io/PWA/assets/icons/icon-72x72.png": "03791494c5faaf7203124283eec44af53bf74e44",
     "https://XitlaliReyes.github.io/PWA/assets/icons/icon-96x96.png": "732299491b1cc1c4ac2613ca4f9323fae032cfe6",
+    "https://XitlaliReyes.github.io/PWA/assets/images/Adrian.jpg": "83de60e4d8eb34f541a4a3894baddba36c3f2466",
+    "https://XitlaliReyes.github.io/PWA/assets/images/Dany.jpg": "3319bfcc504b4ccf777d0faae8d9cef90b5ee351",
     "https://XitlaliReyes.github.io/PWA/assets/images/aaron.jpg": "4b719df3a59fabcd4d25096e61ea08b4fcadc7e4",
     "https://XitlaliReyes.github.io/PWA/assets/images/aboutus.jpg": "8bbdff2f97c7cd9e9cb9a0b22c97986582eec58f",
     "https://XitlaliReyes.github.io/PWA/assets/images/alan.jpg": "6a9ddd0e656a8c27cb8a899efec8255c031968b9",
@@ -308,6 +314,7 @@
     "https://XitlaliReyes.github.io/PWA/assets/images/cuidad.jpg": "4233b5fb3c7f28664685757916e70d45da288600",
     "https://XitlaliReyes.github.io/PWA/assets/images/experciancia.jpg": "5c5cb8bcb889cd417b7bab87dae7a23a2e653b9f",
     "https://XitlaliReyes.github.io/PWA/assets/images/familia.jpg": "992b8003851aeca7b6dbf3c711c90ceb89cc1db4",
+    "https://XitlaliReyes.github.io/PWA/assets/images/gaby.jpg": "1f3df0830725f706f7d7b52a45b4b7c167f8eba4",
     "https://XitlaliReyes.github.io/PWA/assets/images/home_lock.png": "a17e964943b0e77318b75965847c474526782f2f",
     "https://XitlaliReyes.github.io/PWA/assets/images/johan.jpg": "7d9948df7e0319b862d7b9d7ceb3985fd0d836a2",
     "https://XitlaliReyes.github.io/PWA/assets/images/logo.png": "ba847ff88577925db5d5750676e62c221a1e0ccf",
@@ -323,12 +330,13 @@
     "https://XitlaliReyes.github.io/PWA/assets/images/ticket.jpg": "6cbc50c4be77d4267ae521d3ddfe40824da44b00",
     "https://XitlaliReyes.github.io/PWA/assets/images/todoincluido.jpeg": "b9cf391bdbcccd5f5ae2ba1f0ddccf32272c7cc0",
     "https://XitlaliReyes.github.io/PWA/assets/images/xcaret.jpg": "3861852f5180a047b3a646cc42a19b3e71d9a178",
+    "https://XitlaliReyes.github.io/PWA/assets/images/xitlali.jpeg": "3f12e35c071908d911c6401f344fc161ea48f978",
     "https://XitlaliReyes.github.io/PWA/chunk-3QKAFUMT.js": "86002344f6d092f81169d4433b9eda76d3f14eb7",
     "https://XitlaliReyes.github.io/PWA/chunk-SDGOTNAG.js": "0073858294fa85eedc321e70a149a1558377a29b",
     "https://XitlaliReyes.github.io/PWA/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "https://XitlaliReyes.github.io/PWA/index.html": "cba5e83379548ca8205ae210cd7a258ef9d1081c",
-    "https://XitlaliReyes.github.io/PWA/main-DXODQGUH.js": "a87655dc53ee8d6cf3799a2d1812d5c19014cd03",
-    "https://XitlaliReyes.github.io/PWA/manifest.webmanifest": "10fe22f6e6a26736a6afaf573a227917409edd92",
+    "https://XitlaliReyes.github.io/PWA/index.html": "1e70de457f18603cb087dcc1cf657f51888fbd86",
+    "https://XitlaliReyes.github.io/PWA/main-CP2D2R24.js": "65208dc78717d31a3d370b2e7c3bce672c67a5eb",
+    "https://XitlaliReyes.github.io/PWA/manifest.webmanifest": "67d01ec709c3ec01f9351bc64be434194e721bc6",
     "https://XitlaliReyes.github.io/PWA/polyfills-A7MJM4D4.js": "547053781d5952561abe68a51cc6c1a2b1b51c55",
     "https://XitlaliReyes.github.io/PWA/scripts-QYHR5MO2.js": "ac16de2daa52ecaaf2fd34d2cdbad1839e065842",
     "https://XitlaliReyes.github.io/PWA/styles-223INVBO.css": "c531359921ad21fa85c5ba2c6f4a0b04f1457f0c"
