@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716648343454,
+  "timestamp": 1716648894398,
   "index": "https://XitlaliReyes.github.io/PWA/index.html",
   "assetGroups": [
     {
@@ -196,7 +196,7 @@
       "patterns": [
         "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/home"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 5,
       "maxAge": 3000000,
       "timeoutMs": 5000,
