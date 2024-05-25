@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716633676943,
+  "timestamp": 1716648343454,
   "index": "https://XitlaliReyes.github.io/PWA/index.html",
   "assetGroups": [
     {
@@ -26,7 +26,6 @@
         "https:\\/\\/googleads\\.g\\.doubleclick\\.net\\/pagead\\/id",
         "https:\\/\\/jnn-pa\\.googleapis\\.com\\/$rpc\\/google\\.internal\\.waa\\.v1\\.Waa\\/Create",
         "https:\\/\\/www\\.youtube\\.com\\/s\\/player\\/bc657243\\/www-player\\.css",
-        "https:\\/\\/www\\.youtube\\.com\\/s\\/player\\/bc657243\\/player_ias\\.vflset\\/es_MX\\/embed\\.js",
         "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/roboto\\/v30\\/KFOlCnqEu92Fr1MmEU9fBBc4\\.woff2",
         "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/roboto\\/v30\\/KFOmCnqEu92Fr1Mu4mxK\\.woff2",
         "https:\\/\\/www\\.youtube\\.com\\/watch\\?v=xTj1kJgYuHU&t=1s"
@@ -191,7 +190,22 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "data-api",
+      "patterns": [
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/home"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 3000000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "https://XitlaliReyes.github.io/PWA/assets/Masonry/1/img1.jpg": "d6e8f62775610c20a61c55971cfb0cd754570add",
     "https://XitlaliReyes.github.io/PWA/assets/Masonry/1/img10.jpg": "142e227138291de26a1831c0ce73b71dee03a2ca",
