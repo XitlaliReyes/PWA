@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716648894398,
+  "timestamp": 1716650381244,
   "index": "https://XitlaliReyes.github.io/PWA/index.html",
   "assetGroups": [
     {
@@ -28,7 +28,8 @@
         "https:\\/\\/www\\.youtube\\.com\\/s\\/player\\/bc657243\\/www-player\\.css",
         "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/roboto\\/v30\\/KFOlCnqEu92Fr1MmEU9fBBc4\\.woff2",
         "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/roboto\\/v30\\/KFOmCnqEu92Fr1Mu4mxK\\.woff2",
-        "https:\\/\\/www\\.youtube\\.com\\/watch\\?v=xTj1kJgYuHU&t=1s"
+        "https:\\/\\/www\\.youtube\\.com\\/watch\\?v=xTj1kJgYuHU&t=1s",
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/node_modules\\/bootstrap\\/dist\\/css\\/bootstrap\\.min\\.css"
       ]
     },
     {
@@ -194,12 +195,15 @@
     {
       "name": "data-api",
       "patterns": [
-        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/home"
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/home",
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/descubre",
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/registros",
+        "https:\\/\\/xitlalireyes\\.github\\.io\\/PWA\\/about"
       ],
       "strategy": "freshness",
       "maxSize": 5,
       "maxAge": 3000000,
-      "timeoutMs": 5000,
+      "timeoutMs": 8000,
       "cacheQueryOptions": {
         "ignoreVary": true
       },
