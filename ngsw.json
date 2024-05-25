@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716623735838,
+  "timestamp": 1716624083010,
   "index": "https://XitlaliReyes.github.io/PWA/index.html",
   "assetGroups": [
     {
@@ -336,7 +336,7 @@
     "https://XitlaliReyes.github.io/PWA/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "https://XitlaliReyes.github.io/PWA/index.html": "1e70de457f18603cb087dcc1cf657f51888fbd86",
     "https://XitlaliReyes.github.io/PWA/main-CP2D2R24.js": "65208dc78717d31a3d370b2e7c3bce672c67a5eb",
-    "https://XitlaliReyes.github.io/PWA/manifest.webmanifest": "67d01ec709c3ec01f9351bc64be434194e721bc6",
+    "https://XitlaliReyes.github.io/PWA/manifest.webmanifest": "46e9bb0ca815d21b2e99f65924ad1dbb0d19c5fa",
     "https://XitlaliReyes.github.io/PWA/polyfills-A7MJM4D4.js": "547053781d5952561abe68a51cc6c1a2b1b51c55",
     "https://XitlaliReyes.github.io/PWA/scripts-QYHR5MO2.js": "ac16de2daa52ecaaf2fd34d2cdbad1839e065842",
     "https://XitlaliReyes.github.io/PWA/styles-223INVBO.css": "c531359921ad21fa85c5ba2c6f4a0b04f1457f0c"
